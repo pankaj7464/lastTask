@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./portfolio.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="hero">
+        <nav id="navbar" class=" navbar">
+            <a href="">PANKAJ KUMAR</a>
+            <ul id="list" class="menu">
+                <li>Home</li>
+                <li>About Us</li>
+                <li>Collabrate</li>
+                <li>Github</li>
+                <li class="contact">Contact Me</li>
+            </ul>
+        </nav>
+
+    </section>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ipsam, voluptas maxime blanditiis distinctio dolore
+        recusandae unde in molestiae quibusdam, dicta eaque atque a autem earum! Distinctio cum ex libero?Lorem ipsum
+        dolor sit amet consectetur adipisicing elit. Amet suscipit veritatis corrupti atque id facere at impedit
+        assumenda consectetur consequuntur non nobis, natus inventore eum error adipisci modi maiores similique.lorem300
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus voluptates cumque, laborum rem porro odit nobis
+        non tempora, ut cupiditate sequi, ipsam officiis sint possimus voluptate! Quae hic exercitationem, maxime magni
+        cumque vitae alias saepe rem quas non ex. Molestiae dolor corporis quod blanditiis, veritatis consequuntur
+        itaque dolorum maxime. Perferendis aperiam animi illum nam fuga enim culpa vel similique eos, placeat quisquam
+        est molestias autem natus. Soluta quae omnis quisquam officiis iste, cupiditate cum nisi at, velit obcaecati
+        odit facere reprehenderit. Asperiores similique repellendus quam sit eveniet dolore omnis sed modi nemo labore
+        veniam saepe, ipsam cupiditate sapiente? Corporis consequuntur molestias voluptatem provident blanditiis
+        consequatur, aliquam vero inventore repudiandae porro quia fugiat temporibus harum assumenda et exercitationem
+        ipsa aut neque! Quisquam voluptatibus fugit illum adipisci. Fugiat perferendis, minima cumque numquam delectus
+        laborum labore doloremque quaerat eius ex nihil voluptas ea! Beatae tenetur recusandae quae minima. Nam nisi
+        impedit aspernatur officia at sunt inventore natus obcaecati ipsum quaerat voluptatum, voluptate dolorem velit
+        ullam fugit est ipsa deserunt maxime facilis hic porro. Ea, saepe. Omnis eligendi laudantium id explicabo
+        quaerat saepe sit officia enim ipsam neque accusamus assumenda, at beatae voluptates illo voluptatum? Placeat
+        laborum, necessitatibus aut saepe consectetur dignissimos. Tenetur omnis impedit consectetur iure, praesentium
+        sint laborum dolor, ab earum neque eveniet placeat mollitia nostrum iusto? Voluptatem sint ad nisi eos placeat
+        repudiandae consequatur provident molestiae earum eaque? Minima, ipsum sequi dolorem voluptatum, dolorum
+        assumenda deleniti quae et adipisci voluptatibus, vel architecto expedita esse labore? Vitae eius labore vel
+        tempore consectetur pariatur. Rerum mollitia aspernatur ex alias quae pariatur recusandae ab? Optio sint
+        perspiciatis aliquid atque nisi laudantium, beatae non nesciunt eos. Aspernatur delectus debitis adipisci
+        asperiores fuga blanditiis incidunt ab architecto laborum natus laboriosam earum corporis, expedita, vero
+        consequatur impedit. Provident voluptatem unde pariatur dignissimos. Nesciunt neque minus omnis soluta?</p>
+    <script>
+        var menu = document.getElementById("list");
+        var header = document.getElementById("navbar");
+        window.onscroll = function () {
+            if (window.pageYOffset >= menu.offsetTop) {
+                header.classList.add("sticky");
+                console.log("running")
+            }
+            else {
+                header.classList.remove("sticky");
+                console.log("not running")
+            }
+        }
+    </script>
+</body>
+
+</html>
